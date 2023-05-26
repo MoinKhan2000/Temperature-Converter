@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f3f4;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section>div>h1 {
+    padding: 20px;
+    color: blueviolet;
+    font-size: 30px;
+    font-size: 30px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 12px #cccccc;
+}
+
+.cart {
+    min-width: 350px;
+    min-height: 350px;
+    border: 2px solid #af5aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#left {
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+}
+
+#right {
+    border-radius: 0px 10px 10px 0px;
+    background: #af5aff;
+    color: white;
+    font-size: 60px;
+}
+
+#right center {
+    font-size: 30px;
+}
+
+#convertTo {
+    width: 72%;
+}
+
+#left div {
+    min-width: 84%;
+    color: #af5aff;
+    font-weight: bold;
+}
+
+#left h3 {
+    color: #af5aff;
+}
+
+#left input[type='number'],
+#left select {
+    padding: 5px;
+    border: 2px solid;
+    border-color: #a9abac;
+    margin: 0px;
+}
+
+#convert {
+    padding: 8px;
+    width: 40%;
+    border-radius: 8px;
+    background: #af5aff;
+    color: white;
+    border: 2px solid #af5aff;
+    font-size: 18px;
+    transition: background-color, color, border-color, 1s;
+}
+
+
+
+#convert:hover {
+    background-color: white;
+    border-color: #af5aff;
+    color: #af5aff;
+}
